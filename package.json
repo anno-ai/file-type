@@ -187,7 +187,8 @@
 		"ntf",
 		"nitf",
 		"jxl",
-		"vcf"
+		"vcf",
+		"ts"
 	],
 	"devDependencies": {
 		"@types/node": "^13.1.4",

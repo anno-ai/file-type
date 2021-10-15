@@ -78,6 +78,15 @@ async function _fromTokenizer(tokenizer) {
 
 	await tokenizer.peekBuffer(buffer, {length: bytesRead, mayBeLess: true});
 
+	// -- 1-byte signatures
+
+	if (check([0x47])) {
+		return {
+			ext: 'ts',
+			mime: 'video/mp2t'
+		};
+	}
+
 	// -- 2-byte signatures --
 
 	if (check([0x42, 0x4D])) {

@@ -141,7 +141,8 @@ module.exports = {
 		'jxl',
 		'ntf',
 		'nitf',
-		'vcf'
+		'vcf',
+		'ts'
 	],
 	mimeTypes: [
 		'image/jpeg',
@@ -277,6 +278,7 @@ module.exports = {
 		'model/3mf',
 		'image/jxl',
 		'application/vnd.nitf',
-		'application/zstd'
+		'application/zstd',
+		'video/mp2t'
 	]
 };
