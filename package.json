@@ -1,5 +1,5 @@
 {
-	"name": "file-type",
+	"name": "@annoai/file-type",
 	"version": "16.6.0",
 	"description": "Detect the file type of a Buffer/Uint8Array/ArrayBuffer",
 	"license": "MIT",
