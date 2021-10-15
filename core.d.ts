@@ -1,6 +1,6 @@
 /// <reference types="node"/>
-import {Readable as ReadableStream} from 'stream';
-import {ITokenizer} from 'strtok3/lib/core';
+import { Readable as ReadableStream } from 'stream';
+import { ITokenizer } from 'strtok3/lib/core';
 
 declare namespace core {
 	type FileExtension =
@@ -142,7 +142,8 @@ declare namespace core {
 		| 'zst'
 		| 'jxl'
 		| 'ntf'
-		| 'vcf';
+		| 'vcf'
+		| 'ts';
 
 	type MimeType =
 		| 'image/jpeg'
@@ -278,7 +279,8 @@ declare namespace core {
 		| 'model/3mf'
 		| 'image/jxl'
 		| 'application/vnd.nitf'
-		| 'application/zstd';
+		| 'application/zstd'
+		| 'video/mp2t';
 
 	interface FileTypeResult {
 		/**
